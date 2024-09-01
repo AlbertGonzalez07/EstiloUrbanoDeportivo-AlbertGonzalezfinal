@@ -1,0 +1,61 @@
+.row {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.tarjeta {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    background: linear-gradient(500deg, rgb(170, 168, 168), rgb(175, 187, 175));
+    color: black;
+}
+
+.tarjeta div {
+              padding: 30px;
+             }
+
+.tarjeta img {
+              width: 100%;
+              height: 500px;
+              object-fit: cover;
+             }
+
+.tarjeta div a {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(500deg, rgba(211, 222, 212, 0.772), rgb(102, 112, 102));
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.preguntas {
+           padding: 50px 40px 50px 40px;
+           margin: 50px 50px 50px 50px;
+           }
+      
+.plataforma-coderfixed {
+                       position: fixed;
+                       bottom: 50px;
+                       right: 20px;
+                       }
+.google-map {
+             display: flex;
+            }
+
+.box-nosotros{
+              width: 100%;
+              height: 80%;
+              background: linear-gradient(500deg, rgb(170, 168, 168), rgb(160, 223, 160));
+              gap: 10px;
+             }
+
+

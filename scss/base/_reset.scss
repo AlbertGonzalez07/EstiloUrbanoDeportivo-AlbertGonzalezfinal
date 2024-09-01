@@ -1,0 +1,21 @@
+*{ 
+    margin: 0;
+    padding: 0 ;
+   }
+@mixin h1 (){
+    color: black;
+    text-align: center; 
+    font-family: "Bona Nova SC",serif;
+               }
+  
+h1 { 
+      @include h1()
+   }
+  
+@mixin parrafos ($parrafo){
+    color: rgba(12, 13, 13, 0.949);
+}
+
+p{
+    @include parrafos(color)
+}

@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-family: "Bona Nova SC", serif;
+}
+
+p {
+  color: rgba(12, 13, 13, 0.949);
+}
+
+.navbar {
+  background-color: rgb(174, 173, 168);
+}
+
+a:visited {
+  color: white;
+}
+
+a:active {
+  background-color: rgb(165, 158, 158);
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.tarjeta {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  background: linear-gradient(500deg, rgb(170, 168, 168), rgb(175, 187, 175));
+  color: black;
+}
+
+.tarjeta div {
+  padding: 30px;
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.tarjeta div a {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(500deg, rgba(211, 222, 212, 0.772), rgb(102, 112, 102));
+  color: white;
+  text-decoration: none;
+  align-items: center;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.preguntas {
+  padding: 50px 40px 50px 40px;
+  margin: 50px 50px 50px 50px;
+}
+
+.plataforma-coderfixed {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+}
+
+.google-map {
+  display: flex;
+}
+
+.box-nosotros {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(500deg, rgb(170, 168, 168), rgb(160, 223, 160));
+}
+
+footer nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: rgb(174, 173, 168);
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 5 px;
+  flex-wrap: wrap;
+}
+.footer .icon-elem {
+  list-style: none;
+}
+.footer .icon {
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.5s;
+}
+.footer .icon:hover {
+  transform: translateY(-20px);
+}
+.footer .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+.footer .menu-elem {
+  list-style: none;
+}
+.footer .menu-icon {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 10px;
+  opacity: 0.75;
+  transition: 0.3s;
+}
+.footer .menu-icon:hover {
+  opacity: 1;
+}
+
+body {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 429px) {
+  body {
+    background-color: white;
+  }
+  .container1 {
+    position: relative;
+    height: 100%;
+  }
+  .texto-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: o;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    opacity: 0.5;
+  }
+  .img-container1 {
+    width: 100%;
+    height: 100%;
+  }
+  .container2 {
+    flex-direction: column-reverse;
+  }
+  .img-container2 {
+    width: 100%;
+    height: 100%;
+  }
+  .google-map {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 730px) and (max-width: 1500px) {
+  body {
+    background-color: white;
+    font-size: 1rem;
+  }
+  .container-adidas {
+    display: flex;
+  }
+  .container-nike {
+    display: flex;
+  }
+  .google-map {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
